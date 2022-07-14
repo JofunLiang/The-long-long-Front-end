@@ -47,7 +47,7 @@ new Vue({
 
 ## 美化样式
 
-使用 Github 的 Markdown 文档样式对组件样式进行美化。安装样式包：
+使用 Github 的 Markdown 文档样式 [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) 对组件样式进行美化。安装样式包：
 ```
 npm install github-markdown-css
 ```
@@ -65,13 +65,13 @@ new Vue({
 
 ## 代码高亮
 
-代码高亮第一个就想到了 Highlight.js，Highlight.js 是用 JavaScript 编写的语法高亮插件，vue-markdown-loader 在转换时已经添加了代码高亮的样式类，所有只需要使用 Highlight.js 的样式文件就可以了。
+代码高亮第一个就想到了 [highlight.js](https://github.com/highlightjs/highlight.js)，highlight.js 是用 JavaScript 编写的语法高亮插件，vue-markdown-loader 在转换时已经添加了代码高亮的样式类，所有只需要使用 highlight.js 的样式文件就可以了。
 
 先安装：
 ```
-npm install Highlight.js
+npm install highlight.js
 ```
-然后，在项目中引入 Highlight.js 的样式文件：
+然后，在项目中引入 highlight.js 的样式文件：
 ```js
 import Vue from 'vue'
 import Post from './post.md'
